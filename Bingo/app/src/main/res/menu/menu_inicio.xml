@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".startup.Inicio">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="98"
+        android:icon="@drawable/ic_upload"
+        android:title="Subir"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_mensages"
+        android:orderInCategory="99"
+        android:icon="@drawable/common_full_open_on_phone"
+        android:title="Estados"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/action_sync"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_sync"
+        android:title="Actualizar"
+        app:showAsAction="withText" />
+</menu>
